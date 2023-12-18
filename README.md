@@ -1,2 +1,0 @@
-# WebbdesignHB
-Webbdesign project
