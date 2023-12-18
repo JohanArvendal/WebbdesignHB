@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang= "sv-se">
+
+<head> 
+    <meta name = "viewport" content="with=device-width, initial-scale=1.0">
+    <title>Webbdesign projekt test</title>
+    <link rel="Stylesheet" type = "text/css" href="Main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+<body>
+    <section class= "sub-header-musik">
+        <nav>
+            <a href="index.html"><img src="img/logga.png" alt width=100 height=100 ></a>   
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-window-close" onclick= "hideMenu()"></i> 
+                <ul> 
+                  <li> <div class="search-box">
+                    <button class="btn-search">
+                        <i class="fas fa-search"></i>
+                    </button>
+                    <input type="text" class="input-search" placeholder="Sök..."></div></li> 
+                    <li><a href= "index.html">HEM</a></li>
+                    <li><a href= "index.html#kategorier_förstasida">KATEGORI</a></li>
+                    <li><a href= "OmOss.html">OM OSS</a></li>
+                    <li><a href= "kontaktsida.html">KONTAKT</a></li>
+                    <li><a href= "">FAQ</a></li>  
+                    
+                  </ul>
+                </div>
+        <i class="fa fa-bars" onclick= "showMenu()"></i>            
+        </nav>
+   <h1>MUSIK</h1>
+</section> 
+
+<!--Kategori Musik-->
+
+<section class="om-oss">   <!-- info om event med länk och bild -->
+
+    <div class="row">
+        <div class="om-col2">     
+            <br>
+            <h1>BURNA BOY: Spacedrift Tour</h1>
+            <br>
+    
+            <br>
+            <p>Burna Boy kommer för första gången till Stockholm och Hovet <br> 
+               med "Spacedrift Tour" för en konsert den 6 november 2021</p>
+    
+                <a href="Produktsida2.html" class="hero-btn5">MER INFO</a>
+          </div>
+    
+          <div class="om-col2">
+              <img src="img/fest1.jpg" alt height=300>
+      </div>
+    </div> 
+    </section>
+
+    <!--kategori-musik2-->
+
+<section class="om-oss">
+
+  <div class="row">               <!-- ej länkat -->
+      <div class="om-col2">
+    <h1>Bruce Springsteen</h1>
+    <br>
+
+    <br>
+    <p> Den 28 Juli 2022 kommer äntligen "The Boss" tillbaka till Göteborg</p>
+    <p> Några av de mest eftertraktade och populära konsertbiljetterna är <br>
+       onekligen de som ger tillträde till att se en av tidernas största <br>
+       rockstjärnor live,  så som Bruce Springsteen! Artisten har varit aktiv <br> i över 40 år och har tusentals fans världen över. 
+    <p>Bruce Springsteen är en av de bäst säljande artisterna i världen, så <br> det blir givetvis extra högt tryck på biljetter då stjärnan ger sig ut på turné</p>
+
+    <a href="" class="hero-btn5">MER INFO</a>
+      </div>
+
+      <div class="om-col2">
+    <img src="img/Bruce.jpg" alt height=300>
+  </div>
+</div>
+
+</section>
+
+<!--kategori-musik3-->
+
+<section class="om-oss">  <!-- ej länkat -->
+
+  <div class="row">
+      <div class="om-col2">
+    <h1>ED SHEERAN +-=÷x TOUR</h1>
+    <br>
+
+    <br>
+    <p> Ed Sheeran förgyllde en strålande sommar 2018 med tre utsålda, 
+      <br> oförglömliga konserter i Sverige – två på Ullevi och en på Friends <br> 
+      Arena. Nu återvänder han! 
+    <p>Missa inte chansen att köpa biljetter till hans konsert på Ullevi den <br> 
+      10 Augusti 2022</p>
+    <br>
+
+    <a href="" class="hero-btn5">MER INFO</a>
+      </div>
+
+      <div class="om-col2">
+    <img src="img/ed.jpg" alt width=200 height=300>
+  </div>
+</div>
+
+</section>
+
+
+
+<!--Footer-->
+<section class="footer">
+    <h4>Om Oss</h4>
+    <p>Hos oss på Sverigeseventskalender hittar<br> 
+       du alla aktuella event i hela Sverige.</p>
+       <div class="icons">
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-snapchat-square"></i>
+      </div>
+
+    <p>Gjord av Grupp 5 </p>
+   
+</section>
+
+
+ <!--JavaScript for toggle menu-->
+ <script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+      navLinks.style.right = "0";
+
+    }
+    function hideMenu(){
+      navLinks.style.right = "-200px";
+    }
+
+</script>
+
+        
+    </body>
+    </html>
+    
+    

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang= "sv-se">
+
+<head> 
+    <meta name = "viewport" content="with=device-width, initial-scale=1.0">
+    <title>Webbdesign projekt test</title>
+    <link rel="Stylesheet" type = "text/css" href="Main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet"> <!-- Länk till våra typsnitt -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">  <!-- Länk till våra ikoner -->
+</head>
+<body>
+    <section class= "header">
+        <nav>
+           
+            <a href="index.html"><img src="img/logga.png" alt width=100 height=100 ></a>   
+            <div class="nav-links" id="navLinks">   
+                <i class="fa fa-window-close" onclick="hideMenu()"></i>    <!-- våran huvudsida, med länk till logga och kod "hidemenu" i mobilverisionen och hemsidan-->
+                
+                <ul> 
+                        <li> <div class="search-box">
+                          <button class="btn-search">
+                              <i class="fas fa-search"></i>
+                          </button>
+                          <input type="text" class="input-search" placeholder="Sök..."></div></li>  <!-- sökfunktionen OBS.inte länkad -->
+                          <li><a href= "index.html">HEM</a></li>
+                          <li><a href= "index.html#kategorier_förstasida">KATEGORI</a></li>
+                          <li><a href= "OmOss.html">OM OSS</a></li>
+                          <li><a href= "kontaktsida.html">KONTAKT</a></li>
+                          <li><a href= "">FAQ</a></li>  <!--inte länkad -->
+                    
+                  </ul>
+                </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i> <!-- mobilverisionens meny med symbol -->           
+        </nav>
+        <div class="text-box">
+        <h1>Hitta, Utforska och Upplev</h1>
+        <p>Här hittar du ett stort utbud av evenemang i hela Sverige nära dig.
+         Utforska allt från dina <br> intressen till kunskap och håll dig uppdaterad   <!-- intro text -->
+         om vad som händer just nu <br> eller längre fram. Här kan du bland annat 
+         hitta populära evenemang, <br> nyheter, konserter, matcher, workshops och mycket mer. 
+        </p>
+       
+        <a href="OmOss.html" class="hero-btn">Besök oss för att veta mer</a>  <!-- länk till "om oss" sida-->
+
+    </div>
+
+    </section>  
+
+    <!---Kategori-->
+  
+    <section class="Kategori" id="kategorier_förstasida">
+        <h1>Kategorier Att Välja Mellan</h1>        <!--våra kategorier med länk -->
+        <p>Vilken kategori intresserar dig?</p>
+
+        <div class="row">
+            <div class="Kategori-col">
+                <a class="under2" href="Motorsport.html">
+                    <h3>Motorsport</h3>
+                      <p>Här hittar ni alla typer av Sport med allt från bollsporter 
+                         till motorsport.</p>
+                </a>
+            </div>
+            <div class="Kategori-col">
+                <h3>Äventyr</h3>
+                <p>Här hittar ni alla typer av Äventyr med allt från populära 
+                   destinationer till smultronställen nära dig.</p>
+            </div>
+            <div class="Kategori-col">
+                <a class="under2" href="Musik.html">
+                    <h3>Musik</h3>
+                <p>Här hittar ni alla typer av Musik med allt från festivaler 
+                   till konserter.</p>
+                </a>
+            </div>
+           
+
+        </div>
+
+    </section>
+
+<!--Event-->
+
+    <section class="Event">        <!--sista chansen till event samt länkat -->
+        <h1>Sista Chansen</h1>
+        <p>Event du inte vill missa!</p>
+         
+        <div class="row">
+            <div class="Event-col">
+                <img src="img/motorsport.jpg" >
+                <div class="layer">
+                    <h3><a class="under" href="Produktsida1.html">GÖTEBORG GRAND PRIX</a></h3> 
+                    
+                </div>
+            </div>
+            <div class="Event-col">
+                <img src="img/boat.jpg" >
+                <div class="layer">
+                    <h3>Stridsbåtsåkning Till En Militäranläggning</h3>
+                </div>
+            </div>
+            <div class="Event-col">
+                <img src="img/Musik.jpg" >
+                <div class="layer">
+                    <h3><a class="under" href="Produktsida2.html">BURNA BOY: Spacedrift Tour</a></h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Evenemang-->
+
+    <section class="Evenemang">      <!--populära event info, ej länkat -->
+        <h1>Populära Event</h1>
+        <p>Här kan du hitta våra populära Event i dagsläget.</p>
+<div class="row">
+        <div class="Evenemang-col">
+            <img src="img/konsert.jpg">
+            <h3>Ed Sheeran Mathematics Tour</h3>
+            <p> Missa inte Ed Sheerans Mathematics Tour med både gamla och nya hits från 
+                albumet.</p>
+        </div>
+        <div class="Evenemang-col">
+            <img src="img/klättra.jpg">
+            <h3>Upzone By Night</h3>
+            <p> Är du redo för lite äventyr och utmaning? Missa då inte 
+                mörkerklättring med pannlampa i en upplyst park i olika färger.</p>
+        </div>
+        <div class="Evenemang-col">
+            <img src="img/soccer.jpg">
+            <h3>BK Häcken i Fotbollsallsvenskan</h3>
+            <p> Missa inte BK Häcken i Fotbollsallsvenskan på Bravida arena.</p>
+        </div>       
+   </div>
+
+</section>
+
+<!--anmälan och biljetter-->
+
+<section class="cta">  
+    <h1>Anmäl dig eller köp biljetter till Evenemang</h1>
+    <a href="" class="hero-btn">KLICKA HÄR FÖR ATT SE OLIKA EVENT</a>   <!-- sida för att kunna anmäla, köpa biljett, ej länkat -->
+</section>
+
+<!--Footer-->
+<section class="footer">      <!--symboler till om oss, social media-->
+    <h4>Om Oss</h4>
+    <p>Hos oss på Sverigeseventskalender hittar<br> 
+        du alla aktuella event i hela Sverige.</p>
+        <div class="icons">
+         <i class="fab fa-facebook-square"></i>
+         <i class="fab fa-twitter"></i>
+         <i class="fab fa-instagram"></i>
+         <i class="fab fa-snapchat-square"></i>
+       </div>
+ 
+     <p>Gjord av Grupp 5 </p>
+   
+</section>
+
+
+ <!--JavaScript for toggle menu-->   <!--meny för mobilverision, mha. javascript-->
+ <script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+      navLinks.style.right = "0";
+
+    }
+    function hideMenu(){
+      navLinks.style.right = "-200px";
+    }
+
+</script>
+
+        
+    </body>
+    </html>
+    
+    

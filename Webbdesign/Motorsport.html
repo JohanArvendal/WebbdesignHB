@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang= "sv-se">
+
+<head> 
+    <meta name = "viewport" content="with=device-width, initial-scale=1.0">
+    <title>Webbdesign projekt test</title>
+    <link rel="Stylesheet" type = "text/css" href="Main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+<body>
+    <section class= "sub-header-motosport">
+        <nav>
+            <a href="index.html"><img src="img/logga.png" alt width=100 height=100 ></a>   
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-window-close" onclick="hideMenu()"></i> 
+                <ul> 
+                  <li> <div class="search-box">
+                    <button class="btn-search">
+                        <i class="fas fa-search"></i>
+                    </button>
+                    <input type="text" class="input-search" placeholder="Sök..."></div></li>  
+                    <li><a href= "index.html">HEM</a></li>
+                    <li><a href= "index.html#kategorier_förstasida">KATEGORI</a></li>
+                    <li><a href= "OmOss.html">OM OSS</a></li>
+                    <li><a href= "kontaktsida.html">KONTAKT</a></li>
+                    <li><a href= "">FAQ</a></li>  
+                    
+                  </ul>
+                </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>            
+        </nav>
+   <h1>MOTORSPORT</h1>
+</section> 
+
+<!--Kategori Motorsport-->
+
+<section class="om-oss">
+
+    <div class="row">
+        <div class="om-col">    <!-- länk till event med info med bild-->
+            <br>
+            <h1>FORMEL 1</h1>
+            <br>
+    
+            <br>
+            <p>Den 22-24 Oktober 2021 kommer äntligen Formel 1 till Göteborg, <br>
+              Missa inte chansen att köpa biljetter till den bästa cirkusen!</p>
+    
+                <a href="Produktsida1.html" class="hero-btn3">MER INFO</a>
+          </div>
+    
+          <div class="om-col">
+              <img src="img/bil.jpg" alt width=100 height=300 >
+      </div>
+    </div> 
+    </section>
+
+    <!--kategori-motorsport2-->
+
+<section class="om-oss">
+
+    <div class="row">
+        <div class="om-col2">      <!--ej länkat -->
+      <h1>Race Of Champion</h1>
+      <br>
+  
+      <br>
+      <p> Den 5 - 6 Februari 2022 kommer äntligen Race of Champions till Sverige!! </p>
+      <p> Missa inte chansen att köpa biljetter till detta fantastiska evenemang, <br> där bland annat 
+        nuvarande finska F1 Föraren Valtteri Bottas och 2 falldige Finska F1 Världsmästaren Mika Häkkinen 
+        kommer teama upp i detta fantastiska race!</p>
+      <p> Men om inte det vore nog så ska även våra Svenskar Ingemar Stnmark och Anja Pärson teama upp i racet. </p>
+  
+      <a href="" class="hero-btn3">MER INFO</a>
+        </div>
+  
+        <div class="om-col2">
+      <img src="img/col3.jpg" alt height=270>
+    </div>
+  </div>
+  
+  </section>
+  
+  <!--kategori-motorsport3-->
+  
+  <section class="om-oss">
+  
+    <div class="row">
+        <div class="om-col">
+      <h1>STCC</h1>
+      <br>                     <!-- ej länkat -->
+  
+      <br>
+      <p> Den 30sep - 1 okt 2022 är det äntligen dags för STCC på Mantorp Park </p>
+  
+      <a href="" class="hero-btn3">MER INFO</a>
+        </div>
+  
+        <div class="om-col">
+      <img src="img/col2.jpg" alt width=100 height=300>
+    </div>
+  </div>
+  
+  </section>
+
+
+
+<!--Footer-->
+<section class="footer">
+    <h4>Om Oss</h4>
+    <p>Hos oss på Sverigeseventskalender hittar<br> 
+       du alla aktuella event i hela Sverige.</p>
+       <div class="icons">
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-snapchat-square"></i>
+      </div>
+
+    <p>Gjord av Grupp 5 </p>
+   
+</section>
+
+
+ <!--JavaScript for toggle menu-->
+ <script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+      navLinks.style.right = "0";
+
+    }
+    function hideMenu(){
+      navLinks.style.right = "-200px";
+    }
+
+</script>
+
+        
+    </body>
+    </html>
+    
+    

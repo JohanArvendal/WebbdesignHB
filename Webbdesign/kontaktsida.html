@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang= "sv-se">
+
+<head> 
+    <meta name = "viewport" content="with=device-width, initial-scale=1.0">
+    <title>Webbdesign projekt test</title>
+    <link rel="Stylesheet" type = "text/css" href="Main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+<body>
+    <section class= "sub-header">
+        <nav>
+            <a href="index.html"><img src="img/logga.png" alt width=100 height=100 ></a>   
+          
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-window-close" onclick="hideMenu()"></i> 
+                <ul> 
+                  <li> <div class="search-box">
+                    <button class="btn-search">
+                        <i class="fas fa-search"></i>
+                    </button>
+                    <input type="text" class="input-search" placeholder="Sök..."></div></li>
+                    <li><a href= "index.html">HEM</a></li>
+                    <li><a href= "index.html#kategorier_förstasida">KATEGORI</a></li>
+                    <li><a href= "OmOss.html">OM OSS</a></li>
+                    <li><a href= "kontaktsida.html">KONTAKT</a></li>
+                    <li><a href= "">FAQ</a></li>
+                    
+                  </ul>
+                </div>
+        <i class="fa fa-bars" onclick= "showMenu()"></i>            
+        </nav>
+    
+        <!--Kontakta Oss-->
+   <h1>Kontakta Oss</h1>
+  </section> 
+<section class="location">   <!--Länk för karta-->
+
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2131.928215847794!2d11.971529216299583!3d57.70068938111898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464ff3703d2d16f3%3A0x18c09c75080884b7!2sKungsportsavenyen%2017%2C%20411%2036%20G%C3%B6teborg!5e0!3m2!1ssv!2sse!4v1634825490853!5m2!1ssv!2sse" 
+  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+
+<section class= "contact-us">
+<div class="row">                 <!-- logga/symboler med info på kontakt till oss -->
+<div class="contact-col">
+  <div>
+    <i class="fas fa-home"></i>
+    
+    <div>
+      <h5> XYZ Byggnaden</h5>
+      <p>XYZ Gatan, Göteborg</p>
+    </div>
+    
+  </div>
+  <div>
+    <i class="fas fa-phone"></i>
+    <div>
+      <h5> +1 0982763468</h5>
+      <p>Måndag - Fredag, 10.00 - 21.00</p>
+    </div>
+  </div>
+
+  <div>
+   <i class="fas fa-envelope-square"></i>
+    <div>
+      <h5> event@eventsidor.com</h5>
+      <p>Måndag - Fredag, 10.00 - 21.00</p>    
+   </div>
+ </div>
+</div>
+
+ <p><strong>Kontakta oss via e-mail</strong></p> <!-- kolumn för formulär -->
+ <div class="kontakt-col">  
+   <form action="https://formsubmit.co/your@email.com" method="POST">
+   <input type="text" placeholder="Ditt namn" required> <!--krav att allt måste fyllas i för att skicka annars får man felmeddelande-->
+   <input type="email" placeholder="Din e-postadress" required> 
+   <input type="email" placeholder="Vad gäller det?" required> 
+   <textarea rows="8" placeholder="Meddelande" required></textarea>
+   <button type = "submit" class="hero-btn red-btn">Skicka</button>
+   </form>
+  </div>
+
+</div>
+</section>
+ 
+
+
+<!--Footer-->
+<section class="footer">
+    <h4>Om Oss</h4>
+    <p>Hos oss på Sverigeseventskalender hittar<br> 
+       du alla aktuella event i hela Sverige.</p>
+       <div class="icons">
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-snapchat-square"></i>
+      </div>
+
+    <p>Gjord av Grupp 5 </p>
+   
+</section>
+
+
+ <!--JavaScript for toggle menu-->
+ <script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+      navLinks.style.right = "0";
+
+    }
+    function hideMenu(){
+      navLinks.style.right = "-200px";
+    }
+
+</script>
+
+        
+    </body>
+    </html>
+    
+    
